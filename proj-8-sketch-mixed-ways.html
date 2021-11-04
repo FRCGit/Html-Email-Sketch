@@ -1,0 +1,648 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>Dark mode in Sketch, magic buttons and a huge community roundup 🌍</title>
+
+  <style type="text/css">
+    /* global reset */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8fb;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    /* center tag */
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #f8f8fb;
+    }
+
+    /* main table */
+    .main {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      border-spacing: 0;
+      background-color: #ffffff;
+      color: #606060;
+      font-family: '-apple-system', BlinkMacSystemFont, Roboto, 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      /* box-shadow: 0 0 1px rgba(0, 0, 0, .2); */
+      border: 1px solid rgb(238, 237, 237);
+      border-radius: 5px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .button {
+      background-color: #FD9800;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 14px 45px;
+    }
+
+    .button2 {
+      background-color: #FD9800;
+      border-radius: 4px;
+      font-size: 14px;
+      /* font-weight: 600; */
+      line-height: 24px;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 25px;
+    }
+
+
+    .three-columns {
+      text-align: center;
+      font-size: 0;
+      line-height: 0;
+    }
+
+    .column {
+      width: 33%;
+      max-width: 202px;
+      display: inline-block;
+      border-spacing: 0;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    .padding {
+      padding: 5px 5px 50px 5px;
+    }
+
+
+    /* two columns section */
+    .two-columns-b {
+      text-align: center;
+      font-size: 0;
+      line-height: 0;
+    }
+
+    .column-b-left {
+      width: 100%;
+      max-width: 10%;
+      display: inline-block;
+      border-spacing: 0;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    .padding-b-left {
+      padding-top: 20px;
+      /* padding-right: 10px;
+      margin-right: 10px; */
+    }
+
+
+    .column-b-right {
+      width: 100%;
+      max-width: 90%;
+      display: inline-block;
+      border-spacing: 0;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    /* two-columns-c */
+
+    .two-columns-c {
+      text-align: center;
+      /* font-size: 0; */
+      line-height: 0;
+    }
+
+    .column-c {
+      width: 49% !important;
+      max-width: 100% !important;
+      display: inline-block;
+      border-spacing: 0;
+      vertical-align: top;
+    }
+
+    .padding-c {
+      padding: 5px;
+    }
+
+    /* THREE COLUMNS D */
+    .three-columns-d {
+      text-align: center;
+    }
+
+    .column-d1 {
+      /* width: 15%;
+      max-width: 100px; */
+      width: 100px;
+      max-width: 100%;
+      display: inline-block;
+      border-spacing: 0;
+      vertical-align: top;
+    }
+
+    .column-d2 {
+      width: 68%;
+      max-width: 350px;
+      /* width: 350px;
+      max-width: 100%; */
+      display: inline-block;
+      border-spacing: 0;
+      vertical-align: top;
+    }
+
+    .column-d3 {
+      /* width: 15%;
+      max-width: 150px; */
+      width: 150px;
+      max-width: 100%;
+      display: inline-block;
+      border-spacing: 0;
+      vertical-align: top;
+    }
+
+
+    @media screen and (max-width: 599.98px) {}
+
+    @media screen and (max-width: 480px) {
+      .column {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+      }
+
+      .image-plugin {
+        width: 100% !important;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .column-c {
+      width: 100% !important;
+      max-width: 100% !important;
+      display: block;
+      border-spacing: 0;
+    }
+
+    .video-img {
+      width: 100%!important;
+    }
+
+
+
+
+    }
+
+    /* Custom Dark Mode Colors */
+
+    @media (prefers-color-scheme: dark) {
+      /* Enter code in dark mode section below */
+    }
+  </style>
+
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+  <!--<![endif]-->
+
+</head>
+
+<body>
+  <!-- Start: Preheader -->
+  <div
+    style="font-family:Arial, sans-serif;font-size:1px;color:#f6f7fb;line-height:1px;mso-line-height-rule:exactly;display:none;max-width:0px;max-height:0px;opacity:0;overflow:hidden;mso-hide:all;">
+    Your preheader text goes here
+  </div>
+  <!-- End: Preheader -->
+
+  <center class="wrapper">
+    <table class="main" width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation">
+      <!-- LOGO -->
+      <tr>
+        <td align="center" style="padding-top: 16px;padding-left: 15px;padding-right: 15px;">
+          <a href="#"><img
+              src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/d5ee2d36-c144-43f3-9777-4ce37d760aa9.png"
+              alt="logo" width="214"></a>
+          <p style="font-size: 12px;font-weight: 600;color: #969696;margin: 0;">NEWSLETTER — ISSUE 47</p>
+        </td>
+      </tr>
+      <!-- BANNER -->
+      <tr>
+        <td align="center" style="padding-top: 45px;padding-left: 15px;padding-right: 15px;">
+          <a href="#"><img
+              src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/6c5aed38-637d-4c16-89fe-677c795ce982.jpg"
+              alt="banner" width="608" style="max-width: 100%;"></a>
+        </td>
+      </tr>
+      <!-- TOP PARAGRAPH -->
+      <tr>
+        <td align="center" style="padding-left: 15px;padding-right: 15px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td align="center" style="padding-bottom: 60px;">
+                <p style="font-size: 28px;font-weight: 600;line-height: 36px;color: #000000;text-align: left;">macOS
+                  Mojave brings dark mode to Sketch</p>
+                <p
+                  style="margin: 0 0 34px 0 !important;font-family: '-apple-system', BlinkMacSystemFont, Roboto, 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;line-height: 28px;text-align: left;color: #000000;">
+                  We know you‘ve been asking for it and now, with a system wide dark mode in macOS 10.14, Apple have
+                  paved
+                  the way for a native dark mode in Sketch. Find out more about how we’ve already been laying the ground
+                  work
+                  for dark mode and why doing it natively was so important to us, in our WWDC blog post.</p>
+                <a href="#" class="button">Read more</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- THREE COLUMNS SECTION -->
+      <tr>
+        <td style="background-color: #111026;padding-left: 15px;padding-right: 15px;padding-top: 20px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td align="left"
+                style="color: #ffffff; font-size: 28px; font-style: normal; font-weight: 600; line-height: 36px;padding-left: 7px;">
+                <p>
+                  Featured plugins
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #111026;padding-left: 15px;padding-right: 15px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td class="three-columns">
+
+                <table class="column" width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+                  style="border-spacing: 0;">
+                  <tr>
+                    <td class="padding">
+                      <table class="content" width="100%" align="center" cellspacing="0" cellpadding="0"
+                        role="presentation" style="border-spacing: 0;">
+                        <tr>
+                          <td style="background-color: #111026;">
+                            <a href="#"><img class="image-plugin"
+                                src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/f80c6075-2146-46f3-b730-26908589f762.png"
+                                alt="plugin picture" width="189" style="max-width: 100%;border-radius: 5px;"></a>
+                            <p
+                              style="font-size: 18px; font-weight: 600; line-height: 24px;color: #ffffff;margin-bottom: 0;text-align: left;">
+                              Roller</p>
+                            <p
+                              style="font-size: 13px; line-height: 20px; text-align: left;color:#ffffff;margin: 0;padding-top: 3px;text-align: left;padding-right: 5px;">
+                              Toybox’s Roller plugin helps you find and fix design inconsistencies, even if you don’t
+                              have a style guide.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column" width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+                  style="border-spacing: 0;">
+                  <tr>
+                    <td class="padding">
+                      <table class="content" width="100%" align="center" cellspacing="0" cellpadding="0"
+                        role="presentation" style="border-spacing: 0;">
+                        <tr>
+                          <td style="background-color: #111026;">
+                            <a href="#"><img class="image-plugin"
+                                src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/cc6d1321-60cc-4765-82e4-49c8513737ee.png"
+                                alt="plugin picture" width="189" style="max-width: 100%;border-radius: 5px;"></a>
+                            <p
+                              style="font-size: 18px; font-weight: 600; line-height: 24px;color: #ffffff;margin-bottom: 0;text-align: left;">
+                              Magic Buttons</p>
+                            <p
+                              style="font-size: 13px; line-height: 20px; text-align: left;color:#ffffff;margin: 0;padding-top: 3px;text-align: left;padding-right: 5px;">
+                              This plugin from UPX lets you automatically resize and relabel buttons with padding sizes,
+                              just like CSS.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column" width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+                  style="border-spacing: 0;">
+                  <tr>
+                    <td class="padding">
+                      <table class="content" width="100%" align="center" cellspacing="0" cellpadding="0"
+                        role="presentation" style="border-spacing: 0;">
+                        <tr>
+                          <td style="background-color: #111026;">
+                            <a href="#"><img class="image-plugin"
+                                src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/f80c6075-2146-46f3-b730-26908589f762.png"
+                                alt="plugin picture" width="189" style="max-width: 100%;border-radius: 5px;"></a>
+                            <p
+                              style="font-size: 18px; font-weight: 600; line-height: 24px;color: #ffffff;margin-bottom: 0;text-align: left;">
+                              Easing Gradient</p>
+                            <p
+                              style="font-size: 13px; line-height: 20px; text-align: left;color:#ffffff;margin: 0;padding-top: 3px;text-align: left;padding-right: 5px;">
+                              Get smooth, subtle gradients in Sketch with Andreas Larsen’s plugin that lets you control
+                              the color mix.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- BOTTOM PARAGRAPH -->
+      <tr>
+        <td style="padding-left: 15px;padding-right: 15px;padding-bottom:20px">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing: 0;max-width: 608px;">
+            <tr>
+              <td>
+                <p
+                  style="font-size: 28px;font-weight: 600;line-height: 36px;margin: 24px 0;text-align: left;display: block;padding: 0;color: #000000;">
+                  Learn</p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="background: url(https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/f5901c1e-9341-4b99-9eab-885aa648da18.png);background-position: 8px 4px;background-size: 90px 57px;background-position: top left;background-repeat: no-repeat;text-size-adjust: 100%;">
+                <p style="font-size: 18px; font-style: italic; color: #606060; line-height: 28px;">
+                  I’ve recently discovered a way to turn symbol overrides into an RGB color picker. It’s an absurd Rube
+                  Goldberg machine, but it gets the job done. I thought my colleagues would mock me for such profound
+                  over-engineering, but to my surprise, they’ve embraced it and encouraged me to share it.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- TWO COLUMNS WITH TD'S -->
+      <tr>
+        <td style="padding-left: 15px;padding-right: 15px;padding-bottom: 60px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing: 0;max-width: 608px;">
+            <tr>
+              <td width="48" align="left" valign="top" style="width: 48px; padding-right: 15px;">
+                <a href="#"><img
+                    src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/cc4b98fa-e743-4a6b-bd0e-4f788cda2063.jpg"
+                    alt="" width="48" style="border-radius: 5px"></a>
+              </td>
+              <td align="left" valign="middle">
+                <p style="font-size: 18px; font-weight: 600; line-height: 24px; color: #000000;margin: 0px;">Mark & the
+                  Terrible, Horrible, No Good, Very Bad Way to Override a Sketch Symbol with any RGB Color</p>
+                <p style="font-size: 12px; line-height: 24px; color: #606060; margin: 0px;">Mark Grambau</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- BOTTOM PARAGRAPH 2-->
+      <tr>
+        <td style="padding-left: 15px;padding-right: 15px;padding-bottom:20px">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing: 0;max-width: 608px;">
+            <tr>
+              <td
+                style="background: url(https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/f5901c1e-9341-4b99-9eab-885aa648da18.png);background-position: 8px 4px;background-size: 90px 57px;background-position: top left;background-repeat: no-repeat;text-size-adjust: 100%;">
+                <p style="font-size: 18px; font-style: italic; color: #606060; line-height: 28px;">This vibrant
+                  community is a huge part of what makes Sketch great and we’re incredibly proud to say there are now
+                  almost 90 Meetup groups around the world. Since the beginning of the year Sketch meetups have been
+                  held in over 40 cities across the globe—from New York to Buenos Aires and Shanghai to Cairo.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- TWO COLUMNS WITH TD'S 2 -->
+      <tr>
+        <td style="padding-left: 15px;padding-right: 15px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing: 0;max-width: 608px;">
+            <tr>
+              <td width="48" align="left" valign="top" style="width: 48px; padding-right: 15px;">
+                <a href="#"><img
+                    src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/58baffdd-8102-4fab-9d9a-c0dae3a9d7e3.png"
+                    alt="" width="48" style="border-radius: 5px"></a>
+              </td>
+              <td align="left" valign="middle">
+                <p style="font-size: 18px; font-weight: 600; line-height: 24px; color: #000000;margin: 0px;">Sketch
+                  Community Roundup #1  —  March, April and May 2018</p>
+                <p style="font-size: 12px; line-height: 24px; color: #606060; margin: 0px;">by Sketch</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table align="center" width="100%" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-top: 1px solid #EFEAFF;padding-bottom: 40px;margin-top: 40px;max-width: 608px;"></table>
+        </td>
+      </tr>
+      <!-- VIDEOS 2 columns -->
+      <tr>
+        <td style="padding-left: 25px;padding-right: 15px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td style="padding-bottom: 25px;">
+                <p
+                  style="font-size: 28px;color: #000000;font-weight: 600;line-height: 36px;margin: 0;text-align: left;display: block;padding: 0;">
+                  Videos</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left: 10px;padding-right: 10px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td class="two-columns-c">
+
+                <table class="column-c" width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+                  style="border-spacing: 0;">
+                  <tr>
+                    <td class="padding-c">
+                      <table class="content-c" width="100%" align="center" cellspacing="0" cellpadding="0"
+                        role="presentation" style="border-spacing: 0;">
+                        <tr>
+                          <td>
+                            <a href="#"><img class="video-img"
+                                src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/645abf54-dc0a-4811-ae31-a7d01c217474.jpg"
+                                alt="" width="296" style="max-width: 100%;border-radius: 5px;"></a>
+                            <p
+                              style="font-size: 18px; font-weight: 600; line-height: 24px; color: #000000;text-align: left; margin-bottom: 4px;">
+                              Great way to kick off an iOS app redesign in Sketch</p>
+                            <p
+                              style="font-size: 12px; line-height: 18px; margin: 0px; text-align: left; color: rgb(96, 96, 96);">
+                              by MDS</p>
+                            <p
+                              style="font-size: 15px; line-height: 24px; margin: 0px; padding: 8px 0px 0px; text-align: left; color: #000000;">
+                              Matt D. Smith walks you through some of his best practices for starting a new iOS app
+                              design
+                              project,
+                              using the Flowkit Sketch Library.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table class="column-c" width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+                  style="max-width: 608px;border-spacing: 0;">
+                  <tr>
+                    <td class="padding-c">
+                      <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+                        style="border-spacing: 0;">
+                        <tr>
+                          <td class="content-c">
+                            <a href="#"><img class="video-img"
+                                src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/bd1e9225-dd0f-4316-8a5d-f6c9d1e10b77.png"
+                                alt="" width="296" style="max-width: 100%;border-radius: 5px;"></a>
+                            <p
+                              style="font-size: 18px; font-weight: 600; line-height: 24px; color: #000000;text-align: left; margin-bottom: 4px;">
+                              Build a music app landing page in Sketch</p>
+                            <p
+                              style="font-size: 12px; line-height: 18px; margin: 0px; text-align: left; color: rgb(96, 96, 96);">
+                              by Skillthrive</p>
+                            <p
+                              style="font-size: 15px; line-height: 24px; margin: 0px; padding: 8px 0px 0px; text-align: left; color: #000000;">
+                              Here’s one for all you beginners. Hunter from Skillthrive teaches you how to create a
+                              gorgeous
+                              looking
+                              music app landing page in Sketch.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table align="center" width="100%" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-top: 1px solid #EFEAFF;padding-bottom: 40px;margin-top: 40px;max-width: 608px;"></table>
+        </td>
+      </tr>
+      <!-- RESOURCES 3 COLUMNS with td's -->
+      <tr>
+        <td style="padding-left: 7px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td style="padding-bottom: 25px;">
+                <p
+                  style="font-size: 28px;color: #000000;font-weight: 600;line-height: 36px;margin: 0;text-align: left;display: block;padding: 0;">
+                  Resources</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left: 15px;padding-right: 15px;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td width="96" align="left" valing="top" style="padding: 12px 0;width: 96px;vertical-align: top;">
+                <a href="#"><img
+                    src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/001b3a89-973e-478b-84c7-df9f811be48e.png"
+                    alt="" width="96" style="border-radius: 5px;width: 96px;"></a>
+              </td>
+              <td align="left" valign="middle" style="padding: 12px 24px;">
+                <p style="color: #000000; font-size: 18px; font-weight: 600; line-height: 24px;margin: 0;">
+                  Button Kit by Apply Pixels</p>
+                <p
+                  style="font-size: 15px; line-height: 24px; margin: 0px; padding: 0px; text-align: left;color:#606060;">
+                  This neat collection of buttons includes nine different button styles that are totally
+                  customizable using Symbol overrides.</p>
+              </td>
+              <td class="hide" width="108" align="right" valign="middle">
+                <a href="#" class="button2">Download</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table align="center" width="100%" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-top: 1px solid #EFEAFF;padding-bottom: 40px;margin-top: 40px;max-width: 608px;"></table>
+        </td>
+      </tr>
+      <!-- FOOTER -->
+      <tr>
+        <td>
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="max-width: 608px;border-spacing: 0;">
+            <tr>
+              <td align="center">
+                <p style="font-size: 12px; line-height: 18px; color: #606060; margin-bottom: 10px; text-align: center;">You
+                  received this email because you subscribed via the Sketch website. <br>
+                  We’ll be sorry to see you go but you can <a style="text-decoration: none;color: #606060;" href="#"><strong>unsubscribe instantly.</strong></a></p>
+                <p style="font-size: 12px; line-height: 18px; color: #606060; margin-bottom: 40px; text-align: center;">Bohemian
+                  B.V., Marconistraat 20, 2562 JD, the Hague, the Netherlands</p>
+                <a href="#"><img
+                    src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/76a1da98-e66c-49de-8ed9-70d17c3b2551.png"
+                    alt="" width="44"></a>
+                <a href="#" style="padding: 0 5px;"><img
+                    src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/8f66b10c-31ad-44ef-a732-5bd836fd1ddd.png"
+                    alt="" width="44"></a>
+                <a href="#"><img
+                    src="https://gallery.mailchimp.com/d0d26003e4fc2a50827731b93/images/92d40ede-3dff-4820-a426-e7eda158148d.png"
+                    alt="" width="44"></a>
+                <p style="font-size: 12px; line-height: 18px; color: #606060; margin-top: 10px;margin-bottom: 60px; text-align: center;">Forward
+                  this email to a friend
+                  Privacy Statement</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+
+
+
+
+    </table>
+  </center>
+</body>
+
+</html>
